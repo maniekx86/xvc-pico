@@ -28,7 +28,7 @@
 #include <sys/types.h>
 
 // #define BUFFER_SIZE 1024 * 1024  // is super fast but doesn't work on ebaz4205 board ;(
-#define BUFFER_SIZE 1024 * 20 // NOTE: Reduce this in case of flashing problems!
+#define BUFFER_SIZE 1024 * 1024 // NOTE: Reduce this in case of flashing problems!
 
 #ifdef __CYGWIN__
 #include <libusb-1.0/libusb.h>
